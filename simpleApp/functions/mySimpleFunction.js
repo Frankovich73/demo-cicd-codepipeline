@@ -2,7 +2,7 @@
 
 exports.handler = async (event, context)  => {
 	console.log('Hello Simple Function')
-	return sendResponse(200, "Hello Taylor happy Friday", context);
+	return sendResponse(200, "Hello Taylor happy Friday!", context);
 };
 
 function sendResponse(statusCode, message, context) {
